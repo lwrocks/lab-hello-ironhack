@@ -1,0 +1,70 @@
+/* Import Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.app-main {
+  background-image: url(/images/react-logo.svg);
+  background-color: #222838;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3vw;
+}
+
+.title {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 4vw;
+  width: 39vw;
+}
+
+.main-title {
+  font-family: "Sen", sans-serif;
+  font-size: 2.5rem;
+}
+
+.body-text {
+  font-size: 1.5rem;
+}
+
+button {
+  border-radius: 5px;
+  padding: 2vw;
+  font-size: 1.5rem;
+  font-family: "Sen", sans-serif;
+  color: #222838;
+  margin-top: 5vh;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 8px;
+  color: #222838;
+}
+
+.icon-title {
+  padding-left: 1.6vw;
+  margin-bottom: 1.67vh;
+}
+
+.icon-text {
+  padding-left: 1.6vw;
+  color: gray;
+}
+
+.icon {
+  padding: 4vw;
+}
